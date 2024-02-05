@@ -1,0 +1,28 @@
+body
+{
+    background-color:rgb(111, 200, 150)
+}
+
+.btn-info:hover
+{
+    background-color:deepskyblue;
+}
+
+.score
+{
+    color:rgb(57, 130, 89);
+    font-size:large;
+    margin-left: auto;
+}
+
+.timer
+{
+    color:rgb(57, 130, 89);
+    font-size:large;
+    margin-right: auto;
+}
+
+.text
+{
+    color:rgb(54, 39, 155);
+}
