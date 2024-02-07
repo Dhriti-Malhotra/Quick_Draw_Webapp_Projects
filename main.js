@@ -11,3 +11,45 @@ timer_check = "";
 drawn_sketch = "";
 answer_holder = "";
 score = 0;
+
+function draw()
+{
+    function check_sketch()
+    {
+        if('drawn_sketch' = 'sketch');
+    }
+}
+
+function check_sketch()
+{
+    timer_counter + 1;
+    if(timer_counter > 5000)
+    {
+        timer_counter = 0;
+        timer_check = 'completed';
+        timer_check = empty;
+        answer_holder = empty;
+        updateCanvas();
+    }
+}
+
+function updateCanvas()
+{
+    background("white");
+}
+
+console.log('quick_draw_data_set', quick_draw_data_set);
+
+function setup()
+{
+    canvas = createCanvas(280, 280);
+    canvas.center();
+    background("white");
+}
+
+console.log('timer_counter', timer_counter);
+
+function classifyCanvas()
+{
+    classifier.classify(canvas.gotResult);
+}
